@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>it pathshaala®</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- nav start  -->
+    <header>
+        <div class="logo"><a class="navbar-brand" href="index.html"
+                style="font-family: Aclonica, sans-serif; color: rgb(2, 2, 155);">it pathshaala®</a></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Plans & Pricing</a></li>
+                <li><a href="#">itpathshaala Business</a></li>
+                <li><a href="#">Teach on itpathshaala</a></li>
+            </ul>
+        </nav>
+        <div class="search-container">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="search" placeholder="Search for anything">
+
+        </div>
+        <div class="auth-buttons">
+            <button class="login-btn">Log in</button>
+            <button class="signup-btn">Sign up</button>
+        </div>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    </header>
+
+    <div class="sidebar" id="sidebar">
+        <a href="#" class="closebtn" onclick="closeMenu()">×</a>
+        <a href="#">Categories</a>
+        <a href="#">Plans & Pricing</a>
+        <a href="#">Udemy Business</a>
+        <a href="#">Teach on Udemy</a>
+        <a href="#">Log in</a>
+        <a href="#">Sign up</a>
+    </div>
+
+    <!-- nav End   -->
+
+    <!-- carousel start  -->
+    <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://placehold.co/1500x400" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-black">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://placehold.co/1500x400" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-black">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://placehold.co/1500x400" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-black">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <br>
+
+      <div class="container-fluid">
+        <h1 style="text-align: center;">All the skills you need in one place</h1>
+        <p style="text-align: center; padding: 20px;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, corrupti placeat? Minima architecto eum nobis doloribus delectus in minus ratione totam veniam. Distinctio corrupti debitis praesentium! Alias ipsam labore odio?
+        </p>
+
+      </div>
+      <br>
+
+      <div class="container-fluid d-flex flex-wrap justify-content-around gap-3">
+        <div class="card" style="width: 18rem;">
+          <img src="https://placehold.co/150x150" class="card-img-top" alt="...">
+          <div class="card-body CardbodyOur">
+            <h5 class="card-title">Website Development</h5>
+            <h5>Price : ₹800/- </h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>    
+            <a href="#" class="btn btn-primary">Enroll Now</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="https://placehold.co/150x150" class="card-img-top" alt="...">
+          <div class="card-body CardbodyOur">
+            <h5 class="card-title">Website Development</h5>
+            <h5>Price : ₹800/- </h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>    
+            <a href="#" class="btn btn-primary">Enroll Now</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="https://placehold.co/150x150" class="card-img-top" alt="...">
+          <div class="card-body CardbodyOur">
+            <h5 class="card-title">Website Development</h5>
+            <h5>Price : ₹800/- </h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>    
+            <a href="#" class="btn btn-primary">Enroll Now</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="https://placehold.co/150x150" class="card-img-top" alt="...">
+          <div class="card-body CardbodyOur">
+            <h5 class="card-title">Website Development</h5>
+            <h5>Price : ₹800/- </h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>    
+            <a href="#" class="btn btn-primary">Enroll Now</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="https://placehold.co/150x150" class="card-img-top" alt="...">
+          <div class="card-body CardbodyOur">
+            <h5 class="card-title">Website Development</h5>
+            <h5>Price : ₹800/- </h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>    
+            <a href="#" class="btn btn-primary">Enroll Now</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="https://placehold.co/150x150" class="card-img-top" alt="...">
+          <div class="card-body CardbodyOur">
+            <h5 class="card-title">Website Development</h5>
+            <h5>Price : ₹800/- </h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>    
+            <a href="#" class="btn btn-primary">Enroll Now</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="https://placehold.co/150x150" class="card-img-top" alt="...">
+          <div class="card-body CardbodyOur">
+            <h5 class="card-title">Website Development</h5>
+            <h5>Price : ₹800/- </h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>    
+            <a href="#" class="btn btn-primary">Enroll Now</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="https://placehold.co/150x150" class="card-img-top" alt="...">
+          <div class="card-body CardbodyOur">
+            <h5 class="card-title">Website Development</h5>
+            <h5>Price : ₹800/- </h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>    
+            <a href="#" class="btn btn-primary">Enroll Now</a>
+          </div>
+        </div>
+
+
+      </div>
+      <br>
+
+
+
+
+
+
+      <!-- brand  start  -->
+      <div class="container text-center">
+        <p>Trusted by over 15,000 companies and millions of learners around the world</p>
+        <div class="row">
+          <div class="col"><img src="https://placehold.co/100x50" alt=""></div>
+          <div class="col"><img src="https://placehold.co/100x50" alt=""></div>
+          <div class="col"><img src="https://placehold.co/100x50" alt=""></div>
+          <div class="col"><img src="https://placehold.co/100x50" alt=""></div>
+          <div class="col"><img src="https://placehold.co/100x50" alt=""></div>
+          <div class="col"><img src="https://placehold.co/100x50" alt=""></div>
+          
+        </div>
+     </div>
+     <br>
+
+
+
+
+     <!-- price start  -->
+
+     <div class="container mt-5">
+        <h1 class="text-center mb-4">Accelerate growth – for you or your organization</h1>
+        <p class="text-center mb-5">Reach goals faster with one of our plans or programs. Try one free today or contact sales to learn more.</p>
+        <div class="row justify-content-center">
+            <!-- Personal Plan -->
+            <div class="col-md-4 ">
+                <div class="card border-primary">
+                    <div class="card-header">
+                        <h5 class="card-title" style="font-weight: 800;">Personal Plan</h5>
+                        <p>For you</p>
+                        <p> Individual</p>
+                    </div>
+                    <div class="card-body forHeight">
+                        <div class="price">Starting at ₹850 per month</div>
+                        <small class="text-muted">Billed monthly or annually. Cancel anytime.</small>
+                        <ul class="list-unstyled mt-3">
+                            <li><i class="fa-solid fa-check text-success"></i> Access to 11,000+ top courses</li>
+                            <li><i class="fa-solid fa-check text-success"></i> Certification prep</li>
+                            <li><i class="fa-solid fa-check text-success"></i> Goal-focused recommendations</li>
+                            <li><i class="fa-solid fa-check text-success"></i> AI-powered coding exercises</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Start subscription</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Team Plan -->
+            <div class="col-md-4">
+                <div class="card border-primary">
+                    <div class="card-header">
+                        <h5 class="card-title" style="font-weight: 800;">Team Plan</h5>
+                        <p>For your team</p>
+                        <p> 2 to 20 people</p>
+                    </div>
+                    <div class="card-body forHeight">
+                        <div class="price">₹1,167 a month per user</div>
+                        <small class="text-muted">Billed annually. Cancel anytime.</small>
+                        <ul class="list-unstyled mt-3">
+                            <li><i class="fa-solid fa-check text-success"></i> Access to 11,000+ top courses</li>
+                            <li><i class="fa-solid fa-check text-success"></i> Certification prep</li>
+                            <li><i class="fa-solid fa-check text-success"></i> Goal-focused recommendations</li>
+                            <li><i class="fa-solid fa-check text-success"></i> AI-powered coding exercises</li>
+                            <li><i class="fa-solid fa-check text-success"></i> Analytics and adoption reports</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Start subscription</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Enterprise Plan -->
+            <div class="col-md-4">
+                <div class="card border-primary">
+                    <div class="card-header">
+                        <h5 class="card-title" style="font-weight: 800;">Enterprise Plan</h5>
+                        <p>For your whole organization</p>
+                        <p> 2 to 20 people</p>
+                    </div>
+                    <div class="card-body forHeight">
+                        <div class="price">Contact sales for pricing</div>
+                        <ul class="list-unstyled mt-3">
+                            <li><i class="fa-solid fa-check text-success"></i> Access to 25,000+ top courses</li>
+                            <li><i class="fa-solid fa-check text-success"></i> Certification prep</li>
+                            <li><i class="fa-solid fa-check text-success"></i> Goal-focused recommendations</li>
+                            <li><i class="fa-solid fa-check text-success"></i> AI-powered coding exercises</li>
+                            <li><i class="fa-solid fa-check text-success"></i> Advanced analytics and insights</li>
+                            <li><i class="fa-solid fa-check text-success"></i> Dedicated customer success team</li>
+                            <li><i class="fa-solid fa-check text-success"></i> International course collection featuring 15 languages</li>
+                            <li><i class="fa-solid fa-check text-success"></i> Customizable content</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Request a demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+
+
+
+    <!-- Learning  -->
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">See what others are achieving through learning</h2>
+        <div class="row ">
+            <!-- Testimonial 1 -->
+            <div class="col-md-3  ">
+                <div class="testimonial-card">
+                    <p>“Because of this course I was able to clear my two interviews... Thanks for making such wonderful content.”</p>
+                    <div class="testimonial-author">
+                        <img src="https://via.placeholder.com/50" alt="User Avatar">
+                        <div>
+                            <span>Diksha S</span>
+                        </div>
+                    </div>
+                    <a href="#" class="testimonial-link">Business Intelligence (BI) &rarr;</a>
+                </div>
+            </div>
+            <!-- Testimonial 2 -->
+            <div class="col-md-3 ">
+                <div class="testimonial-card">
+                    <p>“This has helped me so much in my career...I joined as a frontend engineer and eventually transitioned to full stack engineer with the help of this course.”</p>
+                    <div class="testimonial-author">
+                        <img src="https://via.placeholder.com/50" alt="User Avatar">
+                        <div>
+                            <span>Chethan B</span>
+                        </div>
+                    </div>
+                    <a href="#" class="testimonial-link">View this Go (golang) course &rarr;</a>
+                </div>
+            </div>
+            <!-- Testimonial 3 -->
+            <div class="col-md-3 ">
+                <div class="testimonial-card">
+                    <p>“Today, I am a software developer, and I credit a significant part of my success to the solid foundation laid by this course.”</p>
+                    <div class="testimonial-author">
+                        <img src="https://via.placeholder.com/50" alt="User Avatar">
+                        <div>
+                            <span>Batchu K</span>
+                        </div>
+                    </div>
+                    <a href="#" class="testimonial-link">View this Java course &rarr;</a>
+                </div>
+            </div>
+            <!-- Testimonial 4 -->
+            <div class="col-md-3 ">
+                <div class="testimonial-card">
+                    <p>“I would highly recommend this Web Development Bootcamp to anyone interested in pursuing a career in web development or looking to enhance their skills in this field.”</p>
+                    <div class="testimonial-author">
+                        <img src="https://via.placeholder.com/50" alt="User Avatar">
+                        <div>
+                            <span>Ankit K</span>
+                        </div>
+                    </div>
+                    <a href="#" class="testimonial-link">Web Development course &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer Start -->
+
+    <div class="container-fluid ">
+
+        <!-- Footer -->
+        <footer
+                class="text-center text-lg-start text-white"
+                style="background-color: #1c2331"
+                >
+          <!-- Section: Social media -->
+          <section
+                   class="d-flex justify-content-between p-4"
+                   style="background-color: #6351ce"
+                   >
+            <!-- Left -->
+            <div class="me-5">
+              <span>Get connected with us on social networks:</span>
+            </div>
+            <!-- Left -->
+      
+            <!-- Right -->
+            <div>
+              <a href="" class="text-white me-4">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="" class="text-white me-4">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="" class="text-white me-4">
+                <i class="fab fa-google"></i>
+              </a>
+              <a href="" class="text-white me-4">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="" class="text-white me-4">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="" class="text-white me-4">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+            <!-- Right -->
+          </section>
+          <!-- Section: Social media -->
+      
+          <!-- Section: Links  -->
+          <section class="">
+            <div class="container text-center text-md-start mt-5">
+              <!-- Grid row -->
+              <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                  <!-- Content -->
+                  <h6 class="text-uppercase fw-bold">itpathshaala</h6>
+                  <hr
+                      class="mb-4 mt-0 d-inline-block mx-auto"
+                      style="width: 60px; background-color: #7c4dff; height: 2px"
+                      />
+                  <p>
+                    Here you can use rows and columns to organize your footer
+                    content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit.
+                  </p>
+                </div>
+                <!-- Grid column -->
+      
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold">Products</h6>
+                  <hr
+                      class="mb-4 mt-0 d-inline-block mx-auto"
+                      style="width: 60px; background-color: #7c4dff; height: 2px"
+                      />
+                  <p>
+                    <a href="#!" class="text-white">itpathshaala</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-white">itpathshaala</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-white">itpathshaala</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-white">itpathshaala</a>
+                  </p>
+                </div>
+                <!-- Grid column -->
+      
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold">Useful links</h6>
+                  <hr
+                      class="mb-4 mt-0 d-inline-block mx-auto"
+                      style="width: 60px; background-color: #7c4dff; height: 2px"
+                      />
+                  <p>
+                    <a href="#!" class="text-white">itpathshaala</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-white">itpathshaala</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-white">itpathshaala</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-white">itpathshaala</a>
+                  </p>
+                </div>
+                <!-- Grid column -->
+      
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold">Contact</h6>
+                  <hr
+                      class="mb-4 mt-0 d-inline-block mx-auto"
+                      style="width: 60px; background-color: #7c4dff; height: 2px"
+                      />
+                  <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+                  <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
+                  <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                  <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                </div>
+                <!-- Grid column -->
+              </div>
+              <!-- Grid row -->
+            </div>
+          </section>
+          <!-- Section: Links  -->
+      
+          <!-- Copyright -->
+          <div
+               class="text-center p-3"
+               style="background-color: rgba(0, 0, 0, 0.2)"
+               >
+            © 2024 Copyright:
+            <a class="text-white" href="https://itpathshaala.com/"
+               >itpathshaala.com</a
+              >
+          </div>
+          <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+      
+      </div>
+      <!-- End of .container -->
+
+
+
+
+     
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
